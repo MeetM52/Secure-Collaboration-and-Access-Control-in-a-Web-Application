@@ -172,3 +172,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore sensitive JSON files
+secrets.json
+
+# Ignore private keys
+*.pem
+
+# Ignore credentials files
+credentials.json
